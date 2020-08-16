@@ -8,14 +8,7 @@ class Fire {
   init = () => {
     if (!firebase.apps.length) {
       firebase.initializeApp({
-        apiKey: "AIzaSyB9kohi9ceqtTLFAA55vfSsK_tFLcnoi4U",
-        authDomain: "chatfirebase-7947f.firebaseapp.com",
-        databaseURL: "https://chatfirebase-7947f.firebaseio.com",
-        projectId: "chatfirebase-7947f",
-        storageBucket: "chatfirebase-7947f.appspot.com",
-        messagingSenderId: "1025253408819",
-        appId: "1:1025253408819:web:6d3ba69a6a487368752346",
-        measurementId: "G-MEYWPBEMBV"
+        // CONFIG FIREBASE
       });
     }
   };
